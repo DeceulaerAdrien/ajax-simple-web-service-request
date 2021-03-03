@@ -12,6 +12,7 @@
 
         document.querySelector('#quote').innerHTML = result.quote;
         document.querySelector('#photo').src = result.photo;
+        document.querySelector('#name').innerHTML = result.author;
     };
 
     xhr.send();
